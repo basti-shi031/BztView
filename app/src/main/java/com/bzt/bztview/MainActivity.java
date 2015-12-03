@@ -59,5 +59,11 @@ public class MainActivity extends AppCompatActivity {
 
         mList.add("PieChartActivity");
         activities.add(PieChartActivity.class);
+
+        mList.add("OnlineVideoActivity");
+        activities.add(OnlineVideoActivity.class);
+
+        mList.add("VideoWithoutControllerActivity");
+        activities.add(VideoWithoutControllerActivity.class);
     }
 }
