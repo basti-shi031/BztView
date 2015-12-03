@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <com.bzt.bztviewandroid.widget.ButtonGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/button_group_horizontal"
+        android:background="@color/select_background_color">
+    </com.bzt.bztviewandroid.widget.ButtonGroup>
+
+    <com.bzt.bztviewandroid.widget.ButtonGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/button_group_vertical"
+        app:text_size="14sp"
+        android:layout_marginTop="16dp"
+        android:background="@color/select_background_color">
+    </com.bzt.bztviewandroid.widget.ButtonGroup>
+</LinearLayout>

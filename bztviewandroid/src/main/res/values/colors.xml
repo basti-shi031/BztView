@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--SegmentLayout-->
+    <color name="normal_text_color">@android:color/holo_blue_light</color><!--SegmentLayout正常字体颜色-->
+    <color name="select_text_color">@android:color/white</color><!--SegmentLayout选中字体颜色-->
+    <color name="normal_background_color">@android:color/white</color><!--SegmentLayout正常背景颜色-->
+    <color name="select_background_color">@android:color/holo_blue_light</color><!--SegmentLayout选中背景颜色-->
+
+    <!--ButtonGroup-->
+    <color name="text_color">@android:color/white</color><!--SegmentLayout选中背景颜色-->
+
+
+</resources>

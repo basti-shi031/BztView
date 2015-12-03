@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--所有自定义属性-->
+<resources>
+    <!--SegmentLayoutItem的自定义属性-->
+    <declare-styleable name="SegmentLayout">
+        <!--字体属性-->
+        <attr name="normal_text_color" format="color"/>
+        <attr name="normal_text_size" format="dimension"/>
+        <attr name="select_text_color" format="color"/>
+        <attr name="select_text_size" format="dimension"/>
+
+        <!--背景属性-->
+        <attr name="normal_background" format="color"/>
+        <attr name="select_background" format="color"/>
+    </declare-styleable>
+
+    <!--buttongroup 属性-->
+    <declare-styleable name="ButtonGroup">
+        <attr name="text_color" format="color"/>
+        <attr name="text_size" format="dimension"/>
+    </declare-styleable>
+
+</resources>
