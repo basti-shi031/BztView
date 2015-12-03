@@ -30,7 +30,7 @@ public class SegmentLayoutActivity extends AppCompatActivity {
         segmentLayout.setOnItemClickListener(new SegmentLayoutClickListener() {
             @Override
             public void onItemClick(int index) {
-                Toast.makeText(SegmentLayoutActivity.this, "点击了" + mlist1[index], Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "点击了" + mlist1[index], Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -44,7 +44,7 @@ public class SegmentLayoutActivity extends AppCompatActivity {
         segmentLayout1.setOnItemClickListener(new SegmentLayoutClickListener() {
             @Override
             public void onItemClick(int index) {
-                Toast.makeText(SegmentLayoutActivity.this, "点击了" + mlist2[index], Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "点击了" + mlist2[index], Toast.LENGTH_SHORT).show();
             }
         });
     }

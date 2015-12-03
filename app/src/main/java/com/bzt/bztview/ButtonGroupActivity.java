@@ -30,7 +30,7 @@ public class ButtonGroupActivity extends AppCompatActivity {
         mGroup1.setOnButtonGroupClickListener(new ButtonGroupClickListener() {
             @Override
             public void onClick(int index) {
-                Toast.makeText(ButtonGroupActivity.this,"点击了第"+index+"个按钮",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"点击了第"+index+"个按钮",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -41,8 +41,15 @@ public class ButtonGroupActivity extends AppCompatActivity {
         mGroup2.setOnButtonGroupClickListener(new ButtonGroupClickListener() {
             @Override
             public void onClick(int index) {
-                Toast.makeText(ButtonGroupActivity.this,"点击了"+group2_text[index],Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"点击了"+group2_text[index],Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mGroup1.setOnButtonGroupClickListener(null);
+        mGroup2.setOnButtonGroupClickListener(null);
     }
 }
